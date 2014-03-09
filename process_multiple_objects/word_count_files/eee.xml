@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inscript id="ahma0003">
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Inscriptions of Israel/Palestine</title>
+                <respStmt id="MS">
+                    <resp>Creator</resp>
+                    <name>Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Brown University</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <physObj engrave="engraved" type="boundary stone" color="">
+                    <desc>Golan Heights. Ahmadiyye. Late Roman and early Byzantine Periods. Boundary stone fragment.</desc>
+                    <dimensions>
+                        <measure type="length">26 cm</measure>
+                        <measure type="width">28 cm</measure>
+                        <measure type="depth">28 cm</measure>
+                    </dimensions>
+                    <letterHgt exact="3" unit="cm">3 cm</letterHgt>
+                    <dateRange calendar="Gregorian" from="" to=""/>
+                    <!-- begin: dateRange Example
+                        
+                        
+                        
+                        <dateRange calendar="Gregorian" from="-0450" to="-0350" exact="none">450 - 350 BCE</dateRange>
+                        
+                        
+                        
+                        <dateRange calendar="Gregorian" from="1100" to="1200" exact="none">1100 - 1200 CE</dateRange>
+                        
+                        
+                        
+                        end: dateRange Example -->
+                    <discovery>
+                        <place region="Golan" city="Ahmadiyye" site="" locus="">
+                            Ahmadiyye.</place>
+                        <date> </date>
+                        <note> </note>
+                    </discovery>
+                    <originalLoc>
+                        <place region="Golan" city="Ahmadiyye" site="" locus="">
+                            same </place>
+                    </originalLoc>
+                    <currentLoc>
+                        <place> </place>
+                        <date> </date>
+                        <note> </note>
+                    </currentLoc>
+                    <note>This inscription on a boundary stone is incomplete and partially illegible. Several lines are missing from the top and perhaps the bottom of the stone. In the third and fourth lines, which cannot be reconstructed, we would expect the name of a landowner, village, or people. Dimensions given refer to entire remainder of stone.</note>
+                </physObj>
+                <figure>
+                    <desc/>
+                    <loc/>
+                </figure>
+                <inscClass lang="Greek" religion="unknown" type="boundary stone"/>
+                <inscSource>
+                    <bibl id="b1" ref="IIP-043.xml" n="91" nType="page"/>
+                </inscSource>
+                <images>
+                    <image>
+                        <digitization>
+                            <date> </date>
+                            <desc> </desc>
+                            <respStmt>
+                                <resp> </resp>
+                                <name> </name>
+                                <note> </note>
+                            </respStmt>
+                        </digitization>
+                        <imgSource>
+                            <bibl id="" ref=""/>
+                            <note> </note>
+                        </imgSource>
+                    </image>
+                </images>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p> </p>
+        </encodingDesc>
+        <profileDesc>
+            <p> </p>
+            <particDesc>
+                <person id="example01">
+                    <p> </p>
+                </person>
+                <person id="example02">
+                    <p> </p>
+                </person>
+                <person id="example03">
+                    <p> </p>
+                </person>
+                <particLinks>
+                    <relation type="personal" mutual="Y"/>
+                    <relation type="personal" mutual="Y"/>
+                    <relation type="personal" mutual="Y"/>
+                </particLinks>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>04/18/07</date>
+                <respStmt>
+                    <resp> </resp>
+                    <name>Anna Schnur-Fishman</name>
+                </respStmt>
+                <item>Creation</item>
+            </change>
+        </revisionDesc>
+    </header>
+    <text>
+        <body>
+            <div type="diplomatic" target="b1">
+                <p>
+                    ΛΙΘΟΝΔΙΟ<lb/>
+                    ΡΙΖΟΝΤΑΟΡ<lb/>
+                    ΑΩΣΑΡΝ<unclear/>Μ<lb/>
+                    <unclear/>ΕΥΗ<unclear/>ΩΝ
+                </p>
+            </div>
+            <div type="transcription" target="b1">
+                <p>
+                    <gap/>
+                    <unclear>λ</unclear>ίθον διο<lb/>
+                    ρίζοντα ὅρ<lb/>
+                    &lt;ου&gt;ς Αρν<unclear/>μ<lb/>
+                    <unclear/>ευ<unclear>η</unclear>
+                    <supplied>ν</supplied>ων
+                    <gap/>
+                </p>
+            </div>
+            <div type="translation" target="b1">
+                <p> ...a stone demarking (the) boundaries(?) of....
+                </p>
+            </div>
+        </body>
+    </text>
+</inscript>

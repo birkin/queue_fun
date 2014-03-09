@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE inscript PUBLIC "Inscriptions of Israel/Palestine" "http://dev.stg.brown.edu/dtds/inscriptXML.dtd">
+<inscript id="anna0001">
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Inscriptions of Israel/Palestine</title>
+                <respStmt id="MS">
+                    <resp>Creator</resp>
+                    <name>Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Brown University</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <physObj type="ossuary" engrave="engraved" color="">
+                    <desc>Judaea. Wadi an-Nar. Date unknown. Ornamented ossuary in hypogeum.
+                        Funerary.</desc>
+                    <dimensions>
+
+                        <measure type="length">30 cm</measure>
+
+                        <measure type="width">56-59 cm</measure>
+
+                        <measure type="depth">25-29 cm</measure>
+
+                    </dimensions>
+                    <letterHgt exact="18" unit="mm">18 mm</letterHgt>
+                    <dateRange calendar="" from="" to="">unknown</dateRange>
+                    <!-- begin: dateRange Example
+                        
+                        
+                        
+                        <dateRange calendar="Gregorian" from="-0450" to="-0350" exact="none">450 - 350 BCE</dateRange>
+                        
+                        
+                        
+                        <dateRange calendar="Gregorian" from="1100" to="1200" exact="none">1100 - 1200 CE</dateRange>
+                        
+                        
+                        
+                        end: dateRange Example -->
+                    <discovery>
+                        <place region="Judaea" city="Wadi an-Nar" site="Qata" locus="hypogeum">Judaea. Caves at
+                            Wadi-an Nar. It is situated approximately half an hour to the east
+                            before reaching Bi'r Ayyub, on the right hand side of the Wadi at a spot
+                            called Qata.</place>
+                        <date>1928</date>
+                    </discovery>
+                    <originalLoc>
+                        <place region="" city="Wadi an-Nar" site="Qata" locus="hypogeum">same</place>
+                    </originalLoc>
+                    <currentLoc>
+                        <place/>
+                        <date> </date>
+                    </currentLoc>
+                    <note> The front of the ossuary is bordered by zigzag lines. The inside is
+                        divided into three fields and the broad sides are decorated with a small
+                        flower design. The top edge of the center part of the ossuary has the Hebrew
+                        inscription. The inscribed area is 7 cm long and the height of the letters
+                        is about 18 mm. It was discovered in a hypogeum with several other ossuaries
+                        during the excavations on Ophel Hill in 1928 by J.W. Crowfoot on behalf of
+                        the Palestine Exploration Fund. The inscribed name מתיה is an abbreviation
+                        of the name מתתיה. Other abbreviated forms of this name have been found in
+                        tomb-caves in Jerusalem and Malha. The scale of the tomb suggests that it
+                        was owned by a wealthy family.</note>
+                </physObj>
+                <figure>
+                    <desc>six-petalled rosette</desc>
+                    <loc>on the broad sides of the inside of the ossuary</loc>
+                </figure>
+                <figure>
+                    <desc>zigzag bands</desc>
+                    <loc>front of the ossuary</loc>
+                </figure>
+                <inscClass lang="Hebrew" religion="Jewish" type="unknown"/>
+                <inscSource>
+                    <bibl id="b1" ref="IIP-151.xml" n="25" nType="page"/>
+
+                </inscSource>
+                <images>
+                    <image>
+                        <digitization>
+                            <date> </date>
+                            <desc> </desc>
+                            <respStmt>
+                                <resp> </resp>
+                                <name> </name>
+                                <note> </note>
+                            </respStmt>
+                        </digitization>
+                        <imgSource>
+                            <bibl id="b9" ref=""/>
+                            <note> </note>
+                        </imgSource>
+                    </image>
+                </images>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p> </p>
+        </encodingDesc>
+        <profileDesc>
+            <p> </p>
+            <particDesc>
+                <person id="example01">
+                    <p> </p>
+                </person>
+                <person id="example02">
+                    <p> </p>
+                </person>
+                <person id="example03">
+                    <p> </p>
+                </person>
+                <particLinks>
+                    <relation type="personal" mutual="Y"> </relation>
+                    <relation type="personal" mutual="Y"> </relation>
+                    <relation type="personal" mutual="Y"> </relation>
+                </particLinks>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>04/14/09</date>
+                <respStmt>
+                    <resp> </resp>
+                    <name>Rachel Wexler</name>
+                </respStmt>
+                <item>Creation</item>
+            </change>
+            <change>
+                <date/>
+                <respStmt>
+                    <resp> </resp>
+                    <name/>
+                </respStmt>
+                <item/>
+            </change>
+        </revisionDesc>
+    </header>
+    <text>
+        <body>
+            <div type="diplomatic" target="b1" xml:lang="heb">
+                <p/>
+            </div>
+            <div type="transcription" target="b1" xml:lang="heb">
+                <p>מתיה</p>
+            </div>
+            <div type="translation" target="b1">
+                <p>Mattiah</p>
+            </div>
+        </body>
+    </text>
+</inscript>

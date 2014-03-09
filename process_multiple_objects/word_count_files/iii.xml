@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE inscript PUBLIC "Inscriptions of Israel/Palestine" "http://dev.stg.brown.edu/dtds/inscriptXML.dtd">
+<inscript id="alji0002">
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Inscriptions of Israel/Palestine</title>
+                <respStmt id="MS">
+                    <resp>Creator</resp>
+                    <name>Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Brown University</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <physObj type="tombstone" engrave="engraved" color="">
+                    <desc>Jordan. Umm Al-Jimal. First to third century CE. Basalt tombstone with
+                        inscription. Epitaph.</desc>
+                    <dimensions>
+
+                        <measure type="length">72 cm</measure>
+                        <measure type="width">30 cm</measure>
+                        <measure type="depth"> </measure>
+
+
+                    </dimensions>
+                    <letterHgt min="4" max="6">4-6 cm</letterHgt>
+                    <dateRange calendar="Gregorian" from="0" to="299">0 CE to 299 CE<note>Based on
+                            content and palaeography.</note>
+                    </dateRange>
+                    <discovery>
+                        <place region="Jordan" city="Umm al-Jimal"
+                            site="4m to the east of House number XIV" locus="">Jordan. Found on the east
+                            side of Umm al-Jimal, 4m to the east of House number XIV.</place>
+                        <date> </date>
+                        <note>Found by the Al al-Bayt Expedition</note>
+                    </discovery>
+                    <originalLoc>
+                        <place region="" city="Umm al-Jimal" site="Necropolis" locus=""> Settlement
+                            south-east of Umm al-Jimal.</place>
+                    </originalLoc>
+                    <currentLoc>
+                        <place> </place>
+                        <date> </date>
+                    </currentLoc>
+                    <note>The tombstone was originally from the necropolis of a pre-Christian community
+                        southeast of Umm al-Jimal and was later reused in the construction of the
+                        Byzantine community. There are at least 8 other Greek texts from Umm
+                        al-Jimal which include the name Yatur, while YTWR appears on three other
+                        Nabataean texts from the same area. The only other instance of the Greek or
+                        Nabataean name YTWR anywhere else in Syria, Arabia or Palestine is two Greek
+                        inscriptions from a site nearby ('Atil). The name YTWR is possibly connected
+                        with the 'Ituraeans'. The name [...]ραοη, while it cannot be restored, is
+                        expected to be feminine because of it's ending (η).</note>
+                </physObj>
+                <figure>
+                    <desc> </desc>
+                    <loc/>
+                </figure>
+                <inscClass type="epitaph" lang="Greek" religion="Pagan"/>
+                <inscSource>
+                    <bibl id="b1" ref="IIP-453.xml"/>
+
+                </inscSource>
+                <images>
+                    <image id="b2">
+                        <digitization>
+                            <date> </date>
+                            <desc> </desc>
+                            <respStmt>
+                                <resp> </resp>
+                                <name> </name>
+                                <note> </note>
+                            </respStmt>
+                            <note/>
+                        </digitization>
+                        <imgSource>
+                            <bibl ref=""/>
+                        </imgSource>
+                    </image>
+                </images>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p> </p>
+        </encodingDesc>
+        <profileDesc>
+            <p> </p>
+            <particDesc>
+                <person>
+                    <p/>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>04/16/09</date>
+                <respStmt>
+                    <resp> </resp>
+                    <name>Eric Gruebel</name>
+                </respStmt>
+                <item>Creation</item>
+            </change>
+            <change>
+                <date/>
+                <respStmt>
+                    <resp> </resp>
+                    <name/>
+                </respStmt>
+                <item/>
+            </change>
+        </revisionDesc>
+    </header>
+    <text>
+        <body>
+            <div type="transcription" target="b2" xml:lang="grc">
+                <p><gap/>ραοη <lb/>Ιατο<lb/>υρου <lb/><abbr expan="ετων">ετ</abbr><lb/> ο</p>
+                <app>
+                    <witList>
+                        <witness> </witness>
+                        <witness> </witness>
+                        <witness> </witness>
+                    </witList>
+                    <rdg> </rdg>
+                    <rdg> </rdg>
+                    <rdg> </rdg>
+                </app>
+            </div>
+            <div type="diplomatic">
+                <p><gap/><lb/> ΡΑΟΗ<lb/> ΙΑΤΟ<lb/> ΥΡΟΥ<lb/> ΕΤ<lb/> Ο</p>
+            </div>
+            <div type="translation" target="MS">
+                <p>[...]ΡΑΟΗ daughter of Yatur, age 70.</p>
+            </div>
+        </body>
+    </text>
+</inscript>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inscript id="ahma0001">
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Inscriptions of Israel/Palestine</title>
+                <respStmt id="MS">
+                    <resp>Creator</resp>
+                    <name>Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Brown University</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <physObj type="architrave" engrave="engraved" color="">
+                    <desc>Golan Heights. Ahmadiyye. Late Roman and early Byzantine Periods. Architrave section with decoration. Unknown type.</desc>
+                    <dimensions>
+                        <measure type="length">56 cm</measure>
+                        <measure type="width">35 cm</measure>
+                        <measure type="depth">23 cm</measure>
+                    </dimensions>
+                    <letterHgt min="7" max="9" unit="cm">7-9 cm</letterHgt>
+                    <dateRange calendar="Gregorian" from="200" to="450">200-450 CE</dateRange>
+                    <!-- begin: dateRange Example
+                        
+                        
+                        
+                        <dateRange calendar="Gregorian" from="-0450" to="-0350" exact="none">450 - 350 BCE</dateRange>
+                        
+                        
+                        
+                        <dateRange calendar="Gregorian" from="1100" to="1200" exact="none">1100 - 1200 CE</dateRange>
+                        
+                        
+                        
+                        end: dateRange Example -->
+                    <discovery>
+                        <place region="Golan" city="Ahmadiyye" site="" locus="">
+                            Ahmadiyye. Discovered near the remains of a large building, in the north-west section of the city.</place>
+                        <date/>
+                        <note> </note>
+                    </discovery>
+                    <originalLoc>
+                        <place region="Golan" city="Ahmadiyye" site="" locus="">
+                            same</place>
+                    </originalLoc>
+                    <currentLoc>
+                        <place>Unknown</place>
+                        <date> </date>
+                        <note> </note>
+                    </currentLoc>
+                    <note> The given transcription and translation, a portion of text in biblical style, were advanced by J. Naveh. Urman has proposed an alternate reading, suggesting that this inscription may be part of a list of twenty-four courses of the Levites who in the days of the Second Temple served in the work of the sanctuary together with the twenty-four courses of the Priests: "...משמר]ת מוש משמר[ת..." -- "...[the course] (of) Mush (the) course [(of)..." This architrave is typical of those found in synagogues of the third century. The decoration engraved in relief depicts a grapevine, with leaves and a cluster of grapes, issuing from a vase. Dimensions given refer to entire remainder of stone.</note>
+                </physObj>
+                <figure>
+                    <desc>grapevine and vase</desc>
+                    <loc>upper panel of the architrave</loc>
+                </figure>
+                <inscClass lang="Hebrew" religion="Jewish" type="unknown"/>
+                <inscSource>
+                    <bibl id="b1" ref="IIP-043.xml" n="89-90" nType="page"/>
+                    <bibl id="b2" ref="IIP-096.xml" n="25" nType="page"/>
+                    <bibl id="b3" ref="IIP-096.xml" n="109" nType="insc"/>
+                </inscSource>
+                <images>
+                    <image>
+                        <digitization>
+                            <date> </date>
+                            <desc> </desc>
+                            <respStmt>
+                                <resp> </resp>
+                                <name> </name>
+                                <note> </note>
+                            </respStmt>
+                        </digitization>
+                        <imgSource>
+                            <bibl id="" ref=""/>
+                            <note> </note>
+                        </imgSource>
+                    </image>
+                </images>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p> </p>
+        </encodingDesc>
+        <profileDesc>
+            <p> </p>
+            <particDesc>
+                <person id="example01">
+                    <p> </p>
+                </person>
+                <person id="example02">
+                    <p> </p>
+                </person>
+                <person id="example03">
+                    <p> </p>
+                </person>
+                <particLinks>
+                    <relation type="personal" mutual="Y"/>
+                    <relation type="personal" mutual="Y"/>
+                    <relation type="personal" mutual="Y"/>
+                </particLinks>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>04/19/07</date>
+                <respStmt>
+                    <resp> </resp>
+                    <name>Anna Schnur-Fishman</name>
+                </respStmt>
+                <item>Creation</item>
+            </change>
+            <change>
+                <date>3/26/08</date>
+                <respStmt>
+                    <resp> </resp>
+                    <name>Anna Schnur-Fishman</name>
+                </respStmt>
+                <item>Hebrew text change</item>
+            </change>
+        </revisionDesc>
+    </header>
+    <text>
+        <body>
+            <div type="diplomatic" target="b1">
+                <p>
+                </p>
+            </div>
+            <div type="transcription" target="b1" xml:lang="heb">
+                <p>
+                    <supplied>לא</supplied> 
+                    תמוש משמר
+                    <supplied>חוקותיו ומעשות מצוותיו</supplied>
+                </p>
+            </div>
+            <div type="translation" target="b1">
+                <p>[You shall not] stray from observing [his laws and doing his commandments].</p>
+            </div>
+        </body>
+    </text>
+</inscript>
