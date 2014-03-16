@@ -3,8 +3,7 @@
 """ Task class & runner functions. """
 
 import time
-from redis import Redis
-from rq import Queue
+import rq, redis
 
 
 class Task(object):
@@ -28,7 +27,7 @@ class Task(object):
 ## runners ##
 
 task = Task()
-q = Queue( u'queue_fun', connection=Redis() )
+q = rq.Queue( u'queue_fun', connection=redis.Redis() )
 
 def run_first_task():
   task.do_first()
