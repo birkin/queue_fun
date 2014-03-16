@@ -18,20 +18,32 @@ import rq, redis
 ## setup queue
 q = rq.Queue( u'queue_fun', connection=redis.Redis() )
 
-## site-dict
-sites = {
-    u'Emma': u'http://www.gutenberg.org/cache/epub/158/pg158.txt',
-    u'Mansfield Park': u'http://www.gutenberg.org/cache/epub/141/pg141.txt',
-    u'Northanger Abbey': u'http://www.gutenberg.org/cache/epub/121/pg121.txt',
-    u'Pride and Prejudice': u'http://www.gutenberg.org/cache/epub/1342/pg1342.txt',
-    u'Sense and Sensibility': u'http://www.gutenberg.org/cache/epub/161/pg161.txt',
+## work-dict
+works = {
+    u'Brown': u'http://www.brown.edu',
+    u'Google': u'https://www.google.com',
+    u'Brown': u'http://www.brown.edu',
+    u'Google': u'https://www.google.com',
+    u'Brown': u'http://www.brown.edu',
+    u'Google': u'https://www.google.com',
+    u'Brown': u'http://www.brown.edu',
+    u'Google': u'https://www.google.com',
+    u'Brown': u'http://www.brown.edu',
+    u'Google': u'https://www.google.com',
     }
+# works = {
+#     u'Emma': u'http://www.gutenberg.org/cache/epub/158/pg158.txt',
+#     u'Mansfield Park': u'http://www.gutenberg.org/cache/epub/141/pg141.txt',
+#     u'Northanger Abbey': u'http://www.gutenberg.org/cache/epub/121/pg121.txt',
+#     u'Pride and Prejudice': u'http://www.gutenberg.org/cache/epub/1342/pg1342.txt',
+#     u'Sense and Sensibility': u'http://www.gutenberg.org/cache/epub/161/pg161.txt',
+#     }
 
 ## put jobs on queue
-for (key, value) in sites.items():
+for (key, value) in works.items():
     job = q.enqueue_call (
         func=u'process_multiple_objects.tasks.get_keywords',
-        kwargs={ u'site_name': key, u'site_url': value } )
+        kwargs={ u'work_title': key, u'work_url': value } )
 
 print u'---'
 print u'all jobs have been put on the queue.'
